@@ -1,0 +1,20 @@
+.tasks{
+    width: 50%;
+}
+.container{
+    max-width: 1280px;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.create-task_add{
+    padding: 10px 17px;
+    font-size: 25px;
+    background-color: #bb7474c0;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 30px;
+}
