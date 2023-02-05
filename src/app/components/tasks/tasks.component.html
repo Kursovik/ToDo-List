@@ -1,0 +1,15 @@
+<!--Список задач -->
+<div class="task__wrp">
+  <input
+    type="text "
+    class="task__input"
+    placeholder="Search..."
+    [(ngModel)]="str"
+  />
+  <div class="task__items">
+    <app-task
+      *ngFor="let task of tasks | searchTask : str"
+      [task]="task"
+    ></app-task>
+  </div>
+</div>
